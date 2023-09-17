@@ -140,6 +140,21 @@ Devido a um problema a ausencia da biblioteca time na plataforma tinkercad este 
 Este circuito ira agir de acordo com a tabela de tempos estabalecida na biblioteca time, fazendo com que a planta seja regada em intervalos regulares utilizado a <a href="https://www.emerson.com/en-us/automation/fluid-control-pneumatics/solenoid-valves#:~:text=A%20solenoid%20valve%20is%20a,field%20that%20moves%20a%20plunger.">válvula solenoide</a> (valvula com interface eletrica).
 
 
+## Integração
+
+
+Esse circuito sera integrado ao nosso sistema da mini estufa via node-red <br>
+e protocolo https para enviar as informações diretamente para nossa <a href="https://github.com/FIAP-grupo-challenge/Python_GS" >API proprietaria</a>
+<img src="images/node-red.png" alt="Logo" width="auto" height="auto">
+
+
+## Arquitetura
+
+
+Neste projeto utilizamos Arquitetura Cliente-Servidor:  Neste modelo, os dispositivos IoT (clientes) se comunicam com servidores na nuvem. Os dispositivos coletam dados e os enviam para os servidores, que processam e armazenam os dados. Os aplicativos e serviços acessam os dados por meio dos servidores. Isso permite uma maior capacidade de processamento na nuvem e uma fácil escalabilidade.
+<img src="images/Diagrama.png" alt="Logo" width="auto" height="auto">
+
+
 # Desenvolvedores
 1. Nome: Lucas Fernandes Joaquim, RM: 551313
 2. Nome: Gustavo Ferreira Lopes, RM: 98887
