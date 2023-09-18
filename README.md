@@ -12,6 +12,8 @@
 <div>
 <p>Este é o projeto de circuito arduino controlador/sensoriamento da estufa mini.<br>
 </p>
+
+<a href="https://www.youtube.com/watch?v=2G21JCTjJ8I">Acesse o vídeo contento a explicação sobre o mundo de IoT </a>
 <p>Areas que o circuito arduino afeta: <br>
 * <a href="https://github.com/FIAP-grupo-challenge/Python_GS" >API</a> : Elemento que vai carregar essas informações (python).<br>
 * <a href="https://github.com/FIAP-grupo-challenge/Python_algoritimo_assincrono_GS" >Algoritimo Assincrono</a> : Elemento que vai processar essas informações (python).<br>
